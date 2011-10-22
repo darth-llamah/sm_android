@@ -170,7 +170,7 @@
   <project path="packages/providers/GoogleContactsProvider" name="android/platform_packages_providers_googlecontactsprovider" remote="github" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2"/>
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="13d1110cb8aca41e07494cc37da204e755c7883a"/>
   <project path="packages/providers/TelephonyProvider" name="android/platform_packages_providers_telephonyprovider" remote="github" revision="14595cbe9045755a5aa2bd28989c147c4709268c"/>
-  <project path="packages/providers/UserDictionaryProvider" name="android/platform_packages_providers_userdictionaryprovider" remote="github" revision="f63351742705d7d421166cac23f7e23255a1f72e"/>
+  <project path="packages/providers/UserDictionaryProvider" name="blandroid/platform_packages_providers_userdictionaryprovider" remote="github" revision="f63351742705d7d421166cac23f7e23255a1f72e"/>
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="github" revision="f2be59c76bffe0991c7058bacad1b59d75b360cb"/>
   <project path="packages/wallpapers/LivePicker" name="android/platform_packages_wallpapers_livepicker" remote="github" revision="19d66c1c422f71b06dbea1827372592432c816b8"/>
   <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="github" revision="f5177bb1e681248ef201d3fffebd961a192d4d7b"/>
