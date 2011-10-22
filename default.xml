@@ -10,7 +10,7 @@
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="9a380beae73854a3916dda83836d9a0cb1e09be3"/>
 
-  <project path="bootable/bootloader/legacy" name="android/platform__bootloader_legacy" remote="github"/>
+  <project path="bootable/bootloader/legacy" name="android/platform_bootloader_legacy" remote="github"/>
   <project path="bootable/diskinstaller" name="blandroid/platform_bootable_diskinstaller" remote="github"/>
   <project path="bootable/recovery" name="Xmister/android_bootable_recovery" remote="github"/>
 
