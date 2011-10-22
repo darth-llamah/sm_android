@@ -107,7 +107,7 @@
   <project path="external/zlib" name="android/platform_external_zlib" remote="github" revision="d834beaf3037eed0745f6dbd987a3bd8b3bf7ee4"/>
 
   <project path="frameworks/base" name="SM-froyo/sm_android_frameworks_base" remote="github"/>
-  <project path="frameworks/ex" name="blandroid/platform_frameworks_ex" remote="github" revision="gingerbread"/>
+  <project path="frameworks/ex" name="blandroid/platform_frameworks_ex" remote="github"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="49f8fa5f480ae382f9087fde333b50072b214ad2"/>
 
   <project path="hardware/alsa_sound" name="dh-harald/android_hardware_alsa_sound" remote="github"/>
