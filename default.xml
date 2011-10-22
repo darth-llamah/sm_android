@@ -158,7 +158,7 @@
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="e21aa4d53f11ed1c39d0a512d2e6944de824751c"/>
   <project path="packages/apps/TSCalibration" name="CyanogenMod/android_packages_apps_TSCalibration" remote="github" revision="eba1bfcaa3637ec6862131de0c02cb669c5babfc"/>
   <project path="packages/apps/VoiceDialer" name="SM-froyo/android_packages_apps_VoiceDialer" remote="github"/>
-  <project path="packages/experimental" name="android/platform_packages_experimental" remote="github" revision="7980ed8334bd654442c8377a89d0403fa23c463d"/>
+  <project path="packages/experimental" name="blandroid/platform_packages_experimental" remote="github" revision="7980ed8334bd654442c8377a89d0403fa23c463d"/>
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="067235a0c0760d406df02e87c0b30603091969c9"/>
   <project path="packages/inputmethods/OpenWnn" name="android/platform_packages_inputmethods_openwnn" remote="github" revision="27ab9d1b806f03554d2abb50de26abe7bf234336"/>
   <project path="packages/inputmethods/PinyinIME" name="android/platform_packages_inputmethods_pinyinime" remote="github" revision="4ee507f260bb4cfa02c59bc2d0d39b1724947ff9"/>
