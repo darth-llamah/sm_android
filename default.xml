@@ -108,7 +108,7 @@
 
   <project path="frameworks/base" name="SM-froyo/sm_android_frameworks_base" remote="github"/>
   <project path="frameworks/ex" name="blandroid/platform_frameworks_ex" remote="github"/>
-  <project path="frameworks/opt/emoji" name="blandroid/platform_frameworks_opt_emoji"remote="github"/>
+  <project path="frameworks/opt/emoji" name="blandroid/platform_frameworks_opt_emoji" remote="github"/>
 
   <project path="hardware/alsa_sound" name="dh-harald/android_hardware_alsa_sound" remote="github"/>
   <project path="hardware/broadcom/wlan" name="blandroid/platform_hardware_broadcom_wlan" remote="github"/>
