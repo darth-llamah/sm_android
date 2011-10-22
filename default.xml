@@ -27,7 +27,7 @@
   <project path="external/bluetooth/hcidump" name="blandroid/platform_external_bluetooth_hcidump" remote="github"/>
   <project path="external/bsdiff" name="blandroid/platform_external_bsdiff" remote="github"/>
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="e5493a5af57c1ffb0d933faab0700db1c0e5b82f"/>
-  <project path="external/bzip2" name="blandroid/platform_external_bzip2" revision="701ad7cca713ec5054e420bde1b32b86d18ef08b"/>
+  <project path="external/bzip2" name="blandroid/platform_external_bzip2" remote="github"/>
   <project path="external/clearsilver" name="android/platform_external_clearsilver" remote="github" revision="21d9fa9e703887295f9c8b8661399ac05800219e"/>
   <project path="external/compcache" name="CyanogenMod/android_external_compcache" revision="b431a9f013c4081857b45d5d4a56ab32f9e1f801" remote="github"/>
   <project path="external/dbus" name="android/platform_external_dbus" remote="github" revision="b99f4d31a4ee7afa2717c03c2ba1b6b432d1595a"/>
