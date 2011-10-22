@@ -166,7 +166,7 @@
   <project path="packages/providers/CalendarProvider" name="android/platform_packages_providers_calendarprovider" remote="github" revision="9be87f0a751a29226f6d2a57054eb0627d370b9b"/>
   <project path="packages/providers/ContactsProvider" name="android/platform_packages_providers_contactsprovider" remote="github" revision="4f20a360a2f0a7a83900c28fc7728542b38d8939"/>
   <project path="packages/providers/DownloadProvider" name="SM-froyo/android_packages_providers_DownloadProvider" remote="github" revision="gingerbread"/>
-  <project path="packages/providers/DrmProvider" name="android/platform_packages_provider_drmprovider" remote="github" revision="b03532e8edf572d63c6a59a0b40b1d329b7cdf66"/>
+  <project path="packages/providers/DrmProvider" name="android/platform_packages_providers_drmprovider" remote="github" revision="b03532e8edf572d63c6a59a0b40b1d329b7cdf66"/>
   <project path="packages/providers/GoogleContactsProvider" name="android/platform_packages_providers_googlecontactsprovider" remote="github" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2"/>
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="13d1110cb8aca41e07494cc37da204e755c7883a"/>
   <project path="packages/providers/TelephonyProvider" name="android/platform_packages_providers_telephonyprovider" remote="github" revision="14595cbe9045755a5aa2bd28989c147c4709268c"/>
