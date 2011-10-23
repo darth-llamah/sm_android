@@ -119,7 +119,7 @@ s
   <project path="hardware/qcom/mm-video" name="CyanogenMod/android_hardware_qcom_mm-video" remote="github" revision="3804cda45ebf2ab09fe42486f080e74502de8a35"/>
   <project path="hardware/ril" name="SM-froyo/platform_hardware_ril" remote="github"/>
 
-  <project path="ndk" name="blandroid/platform_ndk" remote="github"/>
+  <project path="ndk" name="blandroid/platform_ndk" remote="github" revision="master"/>
 
   <project path="packages/apps/AccountsAndSyncSettings" name="blandroid/platform_packages_apps_accountsandsyncsettings" remote="github" revision="46f880c87cd2a8e3ca5c259a9babc24850ddf746"/>
   <project path="packages/apps/AndroidTerm" name="CyanogenMod/android_packages_apps_AndroidTerm" remote="github" revision="e3428012b2395922036ccbf5e0fca46d27d21c5e"/>
