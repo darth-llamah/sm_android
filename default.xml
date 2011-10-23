@@ -112,10 +112,9 @@ s
   <project path="frameworks/opt/emoji" name="blandroid/platform_frameworks_opt_emoji" remote="github" revision="49f8fa5f480ae382f9087fde333b50072b214ad2"/>
 
   <project path="hardware/alsa_sound" name="dh-harald/android_hardware_alsa_sound" remote="github"/>
-  <project path="hardware/broadcom/wlan" name="blandroid/platform_hardware_broadcom_wlan" remote="github"/>
+  <project path="hardware/broadcom/wlan" name="blandroid/platform_hardware_broadcom_wlan" remote="github" revision="900f1defbe1f39ca6af8356521961c249174f304"/>
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="8fb22bd4c2a4531a13c2bb2e0ce9c9f93ca021ed"/>
   <project path="hardware/libhardware_legacy" name="dh-harald/cm_android_hardware_libhardware_legacy" remote="github"/>
-  <project path="hardware/qcom/gps" name="blandroid/platform_hardware_qcom_gps" remote="github"/>
   <project path="hardware/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" revision="d11e359957151306efd9d9512840437ca2098c4a"/>
   <project path="hardware/qcom/mm-video" name="CyanogenMod/android_hardware_qcom_mm-video" remote="github" revision="3804cda45ebf2ab09fe42486f080e74502de8a35"/>
   <project path="hardware/ril" name="SM-froyo/platform_hardware_ril" remote="github"/>
