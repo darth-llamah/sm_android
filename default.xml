@@ -50,7 +50,7 @@ s
   <project path="external/genext2fs" name="platform/external/genext2fs" remote="korg" revision="I6dc02b4fd79f01d4c0d59b8e0d5259f81ef905b0"/>
   <project path="external/giflib" name="android/platform_external_giflib" remote="github" revision="b4ea220703d8257e5b467e3cb278e2604d9c8003"/>
   <project path="external/grub" name="platform/external/grub" remote="korg" revision="I3c6b77b7f7e998f2e236612650693bc238175568"/>
-  <project path="external/gtest" name="platform/external/gtest" remote="korg" revision="fbba5eb387ca72fe4346ed3dccafc1af4c9d8fc5"/>
+  <project path="external/gtest" name="platform/external/gtest" remote="korg" revision="Ifbba5eb387ca72fe4346ed3dccafc1af4c9d8fc5"/>
   <project path="external/guava" name="platform/external/guava" remote="korg" revision="I7ed1872f6490df3db879ad7600b1bfc7aaa929b1"/>
   <project path="external/icu4c" name="android/platform_external_icu4c" remote="github" revision="48b4965f21b876425372e873214bdc2496d02c3e"/>
   <project path="external/icu4j" name="SM-froyo/android_external_icu4j" revision="afcdadd2cedf4ea2ce953b05738441495c3809c1" remote="github"/>
@@ -60,9 +60,9 @@ s
   <project path="external/jdiff" name="android/platform_external_jdiff" remote="github" revision="590cef7c1b48c9c3f4556ae65fbc0065d65da54a"/>
   <project path="external/jhead" name="android/platform_external_jhead" remote="github" revision="8d61723fea0a5cdcd08e34325123fbd3e0bd41ae"/>
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" revision="339e4fa918e0dfd5a11c78d0253fc3ceae7d7e1a"/>
-  <project path="external/jsr305" name="blandroid/platform_external_jsr305" remote="github" revision="8e937939899d5fe3a6864c7ecb9bb8632678a7c7"/>
-  <project path="external/junit" name="blandroid/platform_external_junit" remote="github" revision="e9b8080d6d80d17729e0b7f8b1d2b573b3456cc4"/>
-  <project path="external/kernel-headers" name="blandroid/platform_external_kernel-headers" remote="github" revision="faeff4e8918c60eb0840f42f0d34efa7fe69db9a"/>
+  <project path="external/jsr305" name="platform/external/jsr305" remote="korg" revision="Ibe1bba0cba12d9911f89f7f6c85e822436660efa"/>
+  <project path="external/junit" name="platform/external/junit" remote="korg" revision="Iecce8fab893d8b9eb9f4ce016bc9688b2b72ed81"/>
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="korg" revision="I3a8554269136d0d63aaa033ff9aa983b8038f1d3"/>
   <project path="external/libffi" name="android/platform_external_libffi" remote="github" revision="ac8057e23c0e1eed563db86cdeb8da8fb36665c9"/>
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="6018c68c8259a82ed665045fbbfe377bb78f8765"/>
   <project path="external/libpcap" name="android/platform_external_libpcap" remote="github" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a"/>
