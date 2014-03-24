@@ -28,11 +28,11 @@ s
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="korg" revision="I9fbe738300b541ccd59590d46f95e76db6ff3dd2"/>
   <project path="external/bsdiff" name="platform/external/bsdiff" remote="korg" revision="I3944d75f64a31479d843116c69a4b1a6ad96b73b"/>
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="e5493a5af57c1ffb0d933faab0700db1c0e5b82f"/>
-  <project path="external/bzip2" name="blandroid/platform_external_bzip2" remote="github" revision="701ad7cca713ec5054e420bde1b32b86d18ef08b"/>
+  <project path="external/bzip2" name="platform/external/bzip2" remote="korg" revision="I5fa40ca7df69c02c645cfac5bbff4ec07b062bef"/>
   <project path="external/clearsilver" name="android/platform_external_clearsilver" remote="github" revision="21d9fa9e703887295f9c8b8661399ac05800219e"/>
   <project path="external/compcache" name="CyanogenMod/android_external_compcache" revision="b431a9f013c4081857b45d5d4a56ab32f9e1f801" remote="github"/>
   <project path="external/dbus" name="android/platform_external_dbus" remote="github" revision="b99f4d31a4ee7afa2717c03c2ba1b6b432d1595a"/>
-  <project path="external/dhcpcd" name="blandroid/platform_external_dhcpcd" remote="github" revision="e2cfecadc4e796cae73dbc0dafaf46b837569e71"/>
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="korg" revision="Icd6f44019098c62aa2aaa0845a28beb95120bd62"/>
   <project path="external/dnsmasq" name="blandroid/platform_external_dnsmasq" remote="github" revision="ffd82a77512f2d0971660e9cbd77242d8982a0b5"/>
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="006603dc413f45ea55c55ce8be5ce5c0c748975e" remote="github"/>
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" revision="c8fca3cee502ef58573109d72d1ec68cb0eb3770" remote="github"/>
