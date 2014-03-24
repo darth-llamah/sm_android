@@ -33,29 +33,29 @@ s
   <project path="external/compcache" name="CyanogenMod/android_external_compcache" revision="b431a9f013c4081857b45d5d4a56ab32f9e1f801" remote="github"/>
   <project path="external/dbus" name="android/platform_external_dbus" remote="github" revision="b99f4d31a4ee7afa2717c03c2ba1b6b432d1595a"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="korg" revision="Icd6f44019098c62aa2aaa0845a28beb95120bd62"/>
-  <project path="external/dnsmasq" name="blandroid/platform_external_dnsmasq" remote="github" revision="ffd82a77512f2d0971660e9cbd77242d8982a0b5"/>
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="korg" revision="I9baee49df0139f5131d5a83f6d03fb2aa7a30f46"/>
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="006603dc413f45ea55c55ce8be5ce5c0c748975e" remote="github"/>
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" revision="c8fca3cee502ef58573109d72d1ec68cb0eb3770" remote="github"/>
-  <project path="external/easymock" name="blandroid/platform_external_easymock" remote="github" revision="17d5eb4006c438775d8eaa7600e947e4ac090a18"/>
+  <project path="external/easymock" name="platform/external/easymock" remote="korg" revision="I5c0ebfe560daff00f0b9ce2b53914070abc231d5"/>
   <project path="external/elfcopy" name="android/platform_external_elfcopy" remote="github" revision="be3f8e1b166f13cce6d9c682d300b8bacb5f414d"/>
   <project path="external/elfutils" name="android/platform_external_elfutils" remote="github" revision="a25f6b75948b8253cef5ab0cd435b6fa7e1b65ae"/>
-  <project path="external/embunit" name="blandroid/platform_external_embunit" remote="github" revision="bbee2f7220c25ecf6adf86b86f02f6fae9b78dde"/>
+  <project path="external/embunit" name="platform/external/embunit" remote="korg" revision="I2dba2f9a167553589214d48a7d480c5be8f6a220"/>
   <project path="external/emma" name="android/platform_external_emma" remote="github" revision="4d37e21b7c2fa378dbf7cfe2ea57d7f5991fe6cd"/>
   <project path="external/esd" name="android/platform_external_esd" remote="github" revision="224a67f2683a7ee997179fc5dd16115e39987b0f"/>
   <project path="external/expat" name="android/platform_external_expat" remote="github" revision="8e73b59cb96728872715ab00b374815d6b974e24"/>
   <project path="external/fdlibm" name="android/platform_external_fdlibm" remote="github" revision="2d40e32fc1cb42719ed25f774bd6a6023e8a5c6b"/>
   <project path="external/flac" name="kruton/android_external_flac" revision="ffb50496c70cd15e456bc1a37a4b3d62fc0db6c5" remote="github"/>
   <project path="external/freetype" name="android/platform_external_freetype" remote="github" revision="ff8c8b2dfd829fd7b352355cbaf0052a998cc09d"/>
-  <project path="external/fsck_msdos" name="blandroid/platform_external_fsck_msdos" remote="github" revision="a6eb0d1794880492a5779fd8e871eb9ceb3e8737"/>
-  <project path="external/genext2fs" name="blandroid/platform_external_genext2fs" remote="github" revision="28f10892a39db10b1c65125723d9737de865ef56"/>
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" remote="korg" revision="I97b762bb479d213c8596a34a361dae1456cbeeac"/>
+  <project path="external/genext2fs" name="platform/external/genext2fs" remote="korg" revision="I6dc02b4fd79f01d4c0d59b8e0d5259f81ef905b0"/>
   <project path="external/giflib" name="android/platform_external_giflib" remote="github" revision="b4ea220703d8257e5b467e3cb278e2604d9c8003"/>
-  <project path="external/grub" name="blandroid/platform_external_grub" remote="github" revision="121d6447b523906e9ce57482b1d204df790d3557"/>
-  <project path="external/gtest" name="blandroid/platform_external_gtest" remote="github" revision="75f109c3120bf78ee89124f1f21b50ea24225236"/>
-  <project path="external/guava" name="blandroid/platform_external_guava" remote="github" revision="5fa17bce47c47d5538beaaef0e38f0576446709c"/>
+  <project path="external/grub" name="platform/external/grub" remote="korg" revision="I3c6b77b7f7e998f2e236612650693bc238175568"/>
+  <project path="external/gtest" name="platform/external/gtest" remote="korg" revision="fbba5eb387ca72fe4346ed3dccafc1af4c9d8fc5"/>
+  <project path="external/guava" name="platform/external/guava" remote="korg" revision="I7ed1872f6490df3db879ad7600b1bfc7aaa929b1"/>
   <project path="external/icu4c" name="android/platform_external_icu4c" remote="github" revision="48b4965f21b876425372e873214bdc2496d02c3e"/>
   <project path="external/icu4j" name="SM-froyo/android_external_icu4j" revision="afcdadd2cedf4ea2ce953b05738441495c3809c1" remote="github"/>
-  <project path="external/iproute2" name="blandroid/platform_external_iproute2" remote="github" revision="c54863d5d4ff3667e30f859e2d0273e4bb2c4d0f"/>
-  <project path="external/ipsec-tools" name="blandroid/platform_external_ipsec-tools" remote="github" revision="4fe3597dce855ea199afa239498c9c1833a6fe48"/>
+  <project path="external/iproute2" name="platform/external/iproute2" remote="korg" revision="I0248628c3712026b623473bd268dcb2ca75c4e30"/>
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" remote="korg" revision="Ied4089965172683556afcd539e8ecae81f1e1b6d"/>
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" revision="d287acf7d7347b5eea6918884de72cb249389557" remote="github"/>
   <project path="external/jdiff" name="android/platform_external_jdiff" remote="github" revision="590cef7c1b48c9c3f4556ae65fbc0065d65da54a"/>
   <project path="external/jhead" name="android/platform_external_jhead" remote="github" revision="8d61723fea0a5cdcd08e34325123fbd3e0bd41ae"/>
