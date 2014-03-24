@@ -19,7 +19,7 @@ s
   <project path="device/samsung/spica" name="SM-froyo/sm_android_device_samsung_spica" remote="github"/>
 
   <project path="external/apache-http" name="android/platform_external_apache-http" remote="github" revision="9340bb2a4b5f828b418c0e77492dde148623c938"/>
-  <project path="external/astl" name="platform/external/astl" remote="github" revision="I42d6f269f925cc4619a742b20ea887fa5663bad5"/>
+  <project path="external/astl" name="platform/external/astl" remote="korg" revision="I42d6f269f925cc4619a742b20ea887fa5663bad5"/>
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="7bd059bed4786e907beea8049e8eec24e86b4d86"/>
   <project path="external/bison" name="platform/external/bison" remote="korg" revision="Id2f90da2d2b7723e052d05c0469ca8277b1b739c"/>
   <project path="external/blktrace" name="platform/external/blktrace" remote="korg" revision="I503860cfb85eae6fc20db0f0ce2447e49fc4d22b"/>
