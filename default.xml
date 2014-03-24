@@ -135,7 +135,7 @@ s
   <project path="packages/apps/Email" name="SM-froyo/android_packages_apps_Email" remote="github"/>
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="490e1f724b685c5d75b0b540c23c255d9a1bbfee"/>
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="4c9d4abc1f17f88e523bc42eea4530d74fbc4da5"/>
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="korg" revision="b8c79224f7db34b6216959d53cc5fcfc3a7114a5"/>
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="korg" revision="Ib8c79224f7db34b6216959d53cc5fcfc3a7114a5"/>
   <project path="packages/apps/Gallery3D" name="Androbot/android_packages_apps_Gallery3D" remote="github" revision="94e3b45ac8f329e0e0c930943b2bcbda5440b1b8"/>
   <project path="packages/apps/HTMLViewer" name="android/platform_packages_apps_htmlviewer" remote="github" revision="09599d4862289c36586b8fbeb0fb31d40c80ac19"/>
   <project path="packages/apps/IM" name="android/platform_packages_apps_im" remote="github" revision="d4eead18d460ee3b4f911bf93078158194bb252c"/>
