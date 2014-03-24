@@ -147,22 +147,22 @@ s
   <project path="packages/apps/Phone" name="SM-froyo/android_packages_apps_Phone" remote="github"/>
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" revision="03c5288e0336a85e140d1049ef57480996006bdd"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="korg" revision="Ie414908ba633b8a3664d1e6bc9f8792a8b04d15e"/>
-  <project path="packages/apps/QuickSearchBox" name="blandroid/platform_packages_apps_quicksearchbox" remote="github" revision="80eefbe5ccb2355b15f428e7aa605c5d9ce54fc2"/>
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="korg" revision="I01f8398589362c9014ee3189804dea406a0ce632"/>
   <project path="packages/apps/Settings" name="SM-froyo/android_packages_apps_Settings" remote="github"/>
   <project path="packages/apps/SMParts" name="SM-froyo/android_packages_apps_SMParts" remote="github"/>
   <project path="packages/apps/SMPartsHelper" name="SM-froyo/android_packages_apps_SMPartsHelper" remote="github"/>
-  <project path="packages/apps/SMUpdateNotify" name="nebkat/android_packages_apps_SMUpdateNotify" remote="github"/>
+  <project path="packages/apps/SMUpdateNotify" name="voku/android_packages_apps_SMUpdateNotify" remote="github"/>
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" revision="724f488c5fc5e187fc90ad670251be11c99b0014"/>
   <project path="packages/apps/Stk" name="android/platform_packages_apps_stk" remote="github" revision="1f04bacb57af5ac14852cc1056f53016560cc656"/>
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="gingerbread"/>
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="e21aa4d53f11ed1c39d0a512d2e6944de824751c"/>
   <project path="packages/apps/TSCalibration" name="CyanogenMod/android_packages_apps_TSCalibration" remote="github" revision="eba1bfcaa3637ec6862131de0c02cb669c5babfc"/>
   <project path="packages/apps/VoiceDialer" name="SM-froyo/android_packages_apps_VoiceDialer" remote="github"/>
-  <project path="packages/experimental" name="blandroid/platform_packages_experimental" remote="github" revision="7980ed8334bd654442c8377a89d0403fa23c463d"/>
+  <project path="packages/experimental" name="platform/packages/experimental" remote="korg" revision="I82e5f990225bac0c67be6ade94b1fe53190572e2"/>
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="067235a0c0760d406df02e87c0b30603091969c9"/>
-  <project path="packages/inputmethods/OpenWnn" name="blandroid/platform_packages_inputmethods_openwnn" remote="github" revision="27ab9d1b806f03554d2abb50de26abe7bf234336"/>
-  <project path="packages/inputmethods/PinyinIME" name="blandroid/platform_packages_inputmethods_pinyinime" remote="github" revision="4ee507f260bb4cfa02c59bc2d0d39b1724947ff9"/>
-  <project path="packages/providers/ApplicationsProvider" name="blandroid/platform_packages_providers_applicationsprovider" remote="github" revision="00787c8bd9aaa465e7a906141a3b676575834367"/>
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="korg" revision="I5b7daddfd3dfb4de0f1ac6c7a17e83a6cbeebd3c"/>
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="korg" revision="I37ed64d0dd79d8abec89262f83c5dc06343bd65e"/>
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="korg" revision="Ic051868dd922f7fcb21a7e21ec41028291ec8943"/>
   <project path="packages/providers/CalendarProvider" name="android/platform_packages_providers_calendarprovider" remote="github" revision="9be87f0a751a29226f6d2a57054eb0627d370b9b"/>
   <project path="packages/providers/ContactsProvider" name="android/platform_packages_providers_contactsprovider" remote="github" revision="4f20a360a2f0a7a83900c28fc7728542b38d8939"/>
   <project path="packages/providers/DownloadProvider" name="SM-froyo/android_packages_providers_DownloadProvider" remote="github" revision="gingerbread"/>
@@ -170,11 +170,11 @@ s
   <project path="packages/providers/GoogleContactsProvider" name="android/platform_packages_providers_googlecontactsprovider" remote="github" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2"/>
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="13d1110cb8aca41e07494cc37da204e755c7883a"/>
   <project path="packages/providers/TelephonyProvider" name="android/platform_packages_providers_telephonyprovider" remote="github" revision="14595cbe9045755a5aa2bd28989c147c4709268c"/>
-  <project path="packages/providers/UserDictionaryProvider" name="blandroid/platform_packages_providers_userdictionaryprovider" remote="github" revision="f63351742705d7d421166cac23f7e23255a1f72e"/>
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="korg" revision="I3770efef5ae5432f95f5e0f6c1ac4107b59d8ef4"/>
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="github" revision="f2be59c76bffe0991c7058bacad1b59d75b360cb"/>
-  <project path="packages/wallpapers/LivePicker" name="blandroid/platform_packages_wallpapers_livepicker" remote="github" revision="19d66c1c422f71b06dbea1827372592432c816b8"/>
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="korg" revision="Idfb7db27349478dd56e58343b1128f0a763bffb9"/>
   <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="github" revision="f5177bb1e681248ef201d3fffebd961a192d4d7b"/>
-  <project path="packages/wallpapers/MusicVisualization" name="blandroid/platform_packages_wallpapers_musicvisualization" remote="github" revision="863cb2e0b8f3e07e1143a9910045c1735ddfb5ab"/>
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="korg" revision="I5a5e1ea7da45efa382814beff0829276f19514d8"/>
 
   <project path="prebuilt" name="android/platform_prebuilt" remote="github" revision="af702f794b83025363cfd7fcccffbd87d8ffd40d"/>
   <project path="sdk" name="blandroid/platform_sdk" remote="github" revision="bf2cc1ba6983e23f14df45c20ee08f2d4e2b2fd3"/>
