@@ -19,12 +19,12 @@ s
   <project path="device/samsung/spica" name="SM-froyo/sm_android_device_samsung_spica" remote="github"/>
 
   <project path="external/apache-http" name="android/platform_external_apache-http" remote="github" revision="9340bb2a4b5f828b418c0e77492dde148623c938"/>
-  <project path="external/astl" name="blandroid/platform_external_astl" remote="github" revision="a9a7cf4eff812b972e6aabb89bed58f2013f6d3c"/>
+  <project path="external/astl" name="platform/external/astl" remote="github" revision="I42d6f269f925cc4619a742b20ea887fa5663bad5"/>
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="7bd059bed4786e907beea8049e8eec24e86b4d86"/>
-  <project path="external/bison" name="blandroid/platform_external_bison" remote="github" revision="889df9c1efa7ca5de113407ab7793b57a6db677d"/>
-  <project path="external/blktrace" name="blandroid/platform_external_blktrace" remote="github" revision="d523266d0c81d27e0afa29868b0d3c06aaff38b3"/>
+  <project path="external/bison" name="platform/external/bison" remote="github" revision="Id2f90da2d2b7723e052d05c0469ca8277b1b739c"/>
+  <project path="external/blktrace" name="platform/external/blktrace" remote="github" revision="I503860cfb85eae6fc20db0f0ce2447e49fc4d22b"/>
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" revision="81b2a507c229a17f9505cc430b6111e248f69ebc"/>
-  <project path="external/bluetooth/glib" name="blandroid/platform_external_bluetooth_glib" remote="github" revision="b469581b8f4b43847c592d34b08abce479ab44a3"/>
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="github" revision="I3a6a51e485c151c30a5e8f1066a875beaa90d6c3"/>
   <project path="external/bluetooth/hcidump" name="blandroid/platform_external_bluetooth_hcidump" remote="github" revision="2dd13dc20956426dfa43c94d7d04805f536f942b"/>
   <project path="external/bsdiff" name="blandroid/platform_external_bsdiff" remote="github" revision="df980d633fd0bdc0b89af26630f543d91bb87e68"/>
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="e5493a5af57c1ffb0d933faab0700db1c0e5b82f"/>
