@@ -127,7 +127,7 @@ s
   <project path="packages/apps/Browser" name="SM-froyo/android_packages_apps_Browser" remote="github" revision="gingerbread"/>
   <project path="packages/apps/Calculator" name="android/platform_packages_apps_calculator" remote="github" revision="72b0717b7d8956ada90742947838779b24e323f7"/>
   <project path="packages/apps/Calendar" name="android/platform_packages_apps_calendar" remote="github" revision="14e77164bddf4d29acaca5bb2ff116a697bf9650"/>
-  <project path="packages/apps/Camera" name="SM-froyo/android_packages_apps_Camera" remote="github" remote="8f861c27f14e7e7f59bb5bf60aba0ad02ec0684d"/>
+  <project path="packages/apps/Camera" name="SM-froyo/android_packages_apps_Camera" remote="github" revision="8f861c27f14e7e7f59bb5bf60aba0ad02ec0684d"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="korg"/>
   <project path="packages/apps/Contacts" name="SM-froyo/android_packages_apps_Contacts" remote="github" revision="266d02936c7e28a13017bea0a9eb2ac04ff1396d"/>
   <project path="packages/apps/DeskClock" name="SM-froyo/android_packages_apps_DeskClock" remote="github" revision="dfc50ab8a595f0af562179631faa8b1e652d0040"/>
