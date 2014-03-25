@@ -10,7 +10,7 @@
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="9a380beae73854a3916dda83836d9a0cb1e09be3"/>
   <project path="bootable/diskinstaller" name="IllusionRom/android_platform_bootable_diskinstaller" remote="github" revision="cd65e152740c709ab3edc0f4859e996ba27e8ca1"/>
-  <project path="bootable/recovery" name="Xmister/android_bootable_recovery" remote="github" revision="cd41e363e0ba262426f3d6da066c3026a09e943c"/>
+  <project path="bootable/recovery" name="Xmister/android_bootable_recovery" remote="github" revision="97072d0274ad1d5b09deb266988dd7b06e715d76"/>
 
   <project path="dalvik" name="SM-froyo/android_dalvik" remote="github" revision="fa96ff16436c34e5622a44264e798b390dad9bc1"/>
   <project path="development" name="SM-froyo/android_development" remote="github" revision="57ba76bc5c01000e8625673a93aafa22358d8786"/>
