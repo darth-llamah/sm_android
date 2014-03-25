@@ -4,7 +4,7 @@
   <remote name="github" fetch="git://github.com/" review="review.cyanogenmod.com"/>
   <default revision="refs/tags/android-2.2.3_r2.1" remote="korg"/>
 
-  <project path="build" name="SM-froyo/sm_android_build" remote="github">
+  <project path="build" name="SM-froyo/sm_android_build" remote="github" revision="64f16dc683be1aa307453eeca744cd314ce9b903"/>
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
