@@ -117,7 +117,7 @@ s
   <project path="hardware/libhardware_legacy" name="dh-harald/cm_android_hardware_libhardware_legacy" remote="github"/>
   <project path="hardware/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" revision="d11e359957151306efd9d9512840437ca2098c4a"/>
   <project path="hardware/qcom/mm-video" name="CyanogenMod/android_hardware_qcom_mm-video" remote="github" revision="3804cda45ebf2ab09fe42486f080e74502de8a35"/>
-  <project path="hardware/ril" name="SM-froyo/platform_hardware_ril" remote="github" remote="cb105f72215b5ea0ec2c7fb8af58e0d50aa76be1"/>
+  <project path="hardware/ril" name="SM-froyo/platform_hardware_ril" remote="github" revision="cb105f72215b5ea0ec2c7fb8af58e0d50aa76be1"/>
 
   <project path="ndk" name="platform/ndk"/>
 
