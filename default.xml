@@ -2,7 +2,7 @@
 <manifest>
   <remote name="korg" fetch="https://android.googlesource.com/" review="review.source.android.com"/>
   <remote name="github" fetch="git://github.com/" review="review.cyanogenmod.com"/>
-  <default revision="froyo" remote="korg"/>
+  <default revision="refs/tags/android-2.2.3_r2.1" remote="korg"/>
 
   <project path="build" name="SM-froyo/sm_android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile"/>
@@ -11,58 +11,58 @@
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="9a380beae73854a3916dda83836d9a0cb1e09be3"/>
 s
   <project path="bootable/diskinstaller" name="IllusionRom/android_platform_bootable_diskinstaller" remote="github" revision="cd65e152740c709ab3edc0f4859e996ba27e8ca1"/>
-  <project path="bootable/recovery" name="Xmister/android_bootable_recovery" remote="github"/>
+  <project path="bootable/recovery" name="Xmister/android_bootable_recovery" remote="github" revision="cd41e363e0ba262426f3d6da066c3026a09e943c"/>
 
-  <project path="dalvik" name="SM-froyo/android_dalvik" remote="github"/>
-  <project path="development" name="SM-froyo/android_development" remote="github"/>
+  <project path="dalvik" name="SM-froyo/android_dalvik" remote="github" revision="fa96ff16436c34e5622a44264e798b390dad9bc1"/>
+  <project path="development" name="SM-froyo/android_development" remote="github" revision="57ba76bc5c01000e8625673a93aafa22358d8786"/>
 
-  <project path="device/samsung/spica" name="SM-froyo/sm_android_device_samsung_spica" remote="github"/>
+  <project path="device/samsung/spica" name="SM-froyo/sm_android_device_samsung_spica" remote="github" revision="dcb340f308cd7d85655b8cc1dce6a5e53926d48c"/>
 
   <project path="external/apache-http" name="android/platform_external_apache-http" remote="github" revision="9340bb2a4b5f828b418c0e77492dde148623c938"/>
-  <project path="external/astl" name="platform/external/astl" remote="korg" revision="I42d6f269f925cc4619a742b20ea887fa5663bad5"/>
+  <project path="external/astl" name="platform/external/astl" remote="korg"/>
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="7bd059bed4786e907beea8049e8eec24e86b4d86"/>
-  <project path="external/bison" name="platform/external/bison" remote="korg" revision="Id2f90da2d2b7723e052d05c0469ca8277b1b739c"/>
-  <project path="external/blktrace" name="platform/external/blktrace" remote="korg" revision="I503860cfb85eae6fc20db0f0ce2447e49fc4d22b"/>
+  <project path="external/bison" name="platform/external/bison" remote="korg"/>
+  <project path="external/blktrace" name="platform/external/blktrace" remote="korg"/>
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" revision="81b2a507c229a17f9505cc430b6111e248f69ebc"/>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="korg" revision="I3a6a51e485c151c30a5e8f1066a875beaa90d6c3"/>
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="korg" revision="I9fbe738300b541ccd59590d46f95e76db6ff3dd2"/>
-  <project path="external/bsdiff" name="platform/external/bsdiff" remote="korg" revision="I3944d75f64a31479d843116c69a4b1a6ad96b73b"/>
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="korg"/>
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="korg"/>
+  <project path="external/bsdiff" name="platform/external/bsdiff" remote="korg"/>
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="e5493a5af57c1ffb0d933faab0700db1c0e5b82f"/>
-  <project path="external/bzip2" name="platform/external/bzip2" remote="korg" revision="I5fa40ca7df69c02c645cfac5bbff4ec07b062bef"/>
+  <project path="external/bzip2" name="platform/external/bzip2" remote="korg" />
   <project path="external/clearsilver" name="android/platform_external_clearsilver" remote="github" revision="21d9fa9e703887295f9c8b8661399ac05800219e"/>
   <project path="external/compcache" name="CyanogenMod/android_external_compcache" revision="b431a9f013c4081857b45d5d4a56ab32f9e1f801" remote="github"/>
   <project path="external/dbus" name="android/platform_external_dbus" remote="github" revision="b99f4d31a4ee7afa2717c03c2ba1b6b432d1595a"/>
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="korg" revision="Icd6f44019098c62aa2aaa0845a28beb95120bd62"/>
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="korg" revision="I9baee49df0139f5131d5a83f6d03fb2aa7a30f46"/>
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="korg" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="korg"/>
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="006603dc413f45ea55c55ce8be5ce5c0c748975e" remote="github"/>
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" revision="c8fca3cee502ef58573109d72d1ec68cb0eb3770" remote="github"/>
-  <project path="external/easymock" name="platform/external/easymock" remote="korg" revision="I5c0ebfe560daff00f0b9ce2b53914070abc231d5"/>
+  <project path="external/easymock" name="platform/external/easymock" remote="korg"/>
   <project path="external/elfcopy" name="android/platform_external_elfcopy" remote="github" revision="be3f8e1b166f13cce6d9c682d300b8bacb5f414d"/>
   <project path="external/elfutils" name="android/platform_external_elfutils" remote="github" revision="a25f6b75948b8253cef5ab0cd435b6fa7e1b65ae"/>
-  <project path="external/embunit" name="platform/external/embunit" remote="korg" revision="I2dba2f9a167553589214d48a7d480c5be8f6a220"/>
+  <project path="external/embunit" name="platform/external/embunit" remote="korg"/>
   <project path="external/emma" name="android/platform_external_emma" remote="github" revision="4d37e21b7c2fa378dbf7cfe2ea57d7f5991fe6cd"/>
   <project path="external/esd" name="android/platform_external_esd" remote="github" revision="224a67f2683a7ee997179fc5dd16115e39987b0f"/>
   <project path="external/expat" name="android/platform_external_expat" remote="github" revision="8e73b59cb96728872715ab00b374815d6b974e24"/>
   <project path="external/fdlibm" name="android/platform_external_fdlibm" remote="github" revision="2d40e32fc1cb42719ed25f774bd6a6023e8a5c6b"/>
   <project path="external/flac" name="kruton/android_external_flac" revision="ffb50496c70cd15e456bc1a37a4b3d62fc0db6c5" remote="github"/>
   <project path="external/freetype" name="android/platform_external_freetype" remote="github" revision="ff8c8b2dfd829fd7b352355cbaf0052a998cc09d"/>
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" remote="korg" revision="I97b762bb479d213c8596a34a361dae1456cbeeac"/>
-  <project path="external/genext2fs" name="platform/external/genext2fs" remote="korg" revision="I6dc02b4fd79f01d4c0d59b8e0d5259f81ef905b0"/>
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" remote="korg"/>
+  <project path="external/genext2fs" name="platform/external/genext2fs" remote="korg"/>
   <project path="external/giflib" name="android/platform_external_giflib" remote="github" revision="b4ea220703d8257e5b467e3cb278e2604d9c8003"/>
-  <project path="external/grub" name="platform/external/grub" remote="korg" revision="I3c6b77b7f7e998f2e236612650693bc238175568"/>
-  <project path="external/gtest" name="platform/external/gtest" remote="korg" revision="Ifbba5eb387ca72fe4346ed3dccafc1af4c9d8fc5"/>
-  <project path="external/guava" name="platform/external/guava" remote="korg" revision="I7ed1872f6490df3db879ad7600b1bfc7aaa929b1"/>
+  <project path="external/grub" name="platform/external/grub" remote="korg"/>
+  <project path="external/gtest" name="platform/external/gtest" remote="korg"/>
+  <project path="external/guava" name="platform/external/guava" remote="korg"/>
   <project path="external/icu4c" name="android/platform_external_icu4c" remote="github" revision="48b4965f21b876425372e873214bdc2496d02c3e"/>
   <project path="external/icu4j" name="SM-froyo/android_external_icu4j" revision="afcdadd2cedf4ea2ce953b05738441495c3809c1" remote="github"/>
-  <project path="external/iproute2" name="platform/external/iproute2" remote="korg" revision="I0248628c3712026b623473bd268dcb2ca75c4e30"/>
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" remote="korg" revision="Ied4089965172683556afcd539e8ecae81f1e1b6d"/>
+  <project path="external/iproute2" name="platform/external/iproute2" remote="korg"/>
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" remote="korg"/>
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" revision="d287acf7d7347b5eea6918884de72cb249389557" remote="github"/>
   <project path="external/jdiff" name="android/platform_external_jdiff" remote="github" revision="590cef7c1b48c9c3f4556ae65fbc0065d65da54a"/>
   <project path="external/jhead" name="android/platform_external_jhead" remote="github" revision="8d61723fea0a5cdcd08e34325123fbd3e0bd41ae"/>
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" revision="339e4fa918e0dfd5a11c78d0253fc3ceae7d7e1a"/>
-  <project path="external/jsr305" name="platform/external/jsr305" remote="korg" revision="Ibe1bba0cba12d9911f89f7f6c85e822436660efa"/>
-  <project path="external/junit" name="platform/external/junit" remote="korg" revision="Iecce8fab893d8b9eb9f4ce016bc9688b2b72ed81"/>
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="korg" revision="I3a8554269136d0d63aaa033ff9aa983b8038f1d3"/>
+  <project path="external/jsr305" name="platform/external/jsr305" remote="korg"/>
+  <project path="external/junit" name="platform/external/junit" remote="korg"/>
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" remote="korg"/>
   <project path="external/libffi" name="android/platform_external_libffi" remote="github" revision="ac8057e23c0e1eed563db86cdeb8da8fb36665c9"/>
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="6018c68c8259a82ed665045fbbfe377bb78f8765"/>
   <project path="external/libpcap" name="android/platform_external_libpcap" remote="github" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a"/>
@@ -80,89 +80,89 @@ s
   <project path="external/oprofile" name="android/platform_external_oprofile" remote="github" revision="de6b5ecad5b51e38b85975c4f95a9f6e6f13719c"/>
   <project path="external/ping" name="android/platform_external_ping" remote="github" revision="05cc700c9089ff72accb1c76a67c01b5d176bf3e"/>
   <project path="external/ppp" name="android/platform_external_ppp" remote="github" revision="42d99d5976f48b5f604bda08d112d6f583674da7"/>
-  <project path="external/proguard" name="platform/external/proguard" remote="korg" revision="I5e7a3a7161faf357d09d34b3dba61c52be7ace07"/>
+  <project path="external/proguard" name="platform/external/proguard" remote="korg"/>
   <project path="external/qemu" name="android/platform_external_qemu" remote="github" revision="f6b937d9a93b474439c2e602bee39542db796beb"/>
-  <project path="external/quake" name="platform/external/quake" remote="korg" revision="I2d603ea1f4ac0436fe5c4d76a53c7c70c2892b94"/>
+  <project path="external/quake" name="platform/external/quake" remote="korg"/>
   <project path="external/rsync" name="dylex/android_external_rsync" remote="github" revision="743f916624771b0880a92398dc7ccc6f0bf551b2"/>
   <project path="external/safe-iop" name="android/platform_external_safe-iop" remote="github" revision="084f46f834a5327a301984a0d72404551cd2cb6f"/>
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="I778005bc874b811cfa5be2fa1a0ad1ebe9b2450b" />
-  <project path="external/sonivox" name="platform/external/sonivox" remote="korg" revision="I9634aed52bacd702362223bbfe29f59ff8c4fc3c"/>
-  <project path="external/speex" name="platform/external/speex" remote="korg" revision="Iec2fe8962d5b3606d24e8ca01a3adbfd0048eb96"/>
+  <project path="external/sonivox" name="platform/external/sonivox" remote="korg"/>
+  <project path="external/speex" name="platform/external/speex" remote="korg"/>
   <project path="external/sqlite" name="SM-froyo/platform_external_sqlite" remote="github" revision="ba17410d2c55c3041819ea398b5637011830a4cd"/>
   <project path="external/srec" name="android/platform_external_srec" remote="github" revision="58a59517c49aa1153cf4c5813ac4829e88ca8f48"/>
-  <project path="external/stlport" name="platform/external/stlport" revision="c2afec726ce42ded67f2f5f41ec87d77cd6d2d34"/>
+  <project path="external/stlport" name="platform/external/stlport" remote="korg"/>
   <project path="external/strace" name="CyanogenMod/android_external_strace" remote="github" revision="efb3d04365c3e004d836ce66adff07b98b21b629"/>
-  <project path="external/svox" name="platform/external/svox" remote="korg" revision="I109b34edc12547c644f546c4aaabbc8536579d62"/>
+  <project path="external/svox" name="platform/external/svox" remote="korg"/>
   <project path="external/tagsoup" name="android/platform_external_tagsoup" remote="github" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817"/>
   <project path="external/tcpdump" name="android/platform_external_tcpdump" remote="github" revision="532b8f38c144da9a298260a5d8978ab9e8e3856c"/>
   <project path="external/tinyxml" name="android/platform_external_tinyxml" remote="github" revision="d589f7e4a51e75bd5c98a3defd8ee84d7059e86e"/>
   <project path="external/tslib" name="CyanogenMod/android_external_tslib" remote="github" revision="2abc40b58a269c89698e9828debdca08fe226579"/>
-  <project path="external/tremolo" name="platform/external/tremolo" remote="korg" revision="Ia58b53bf50ccbc471ef001044b18a019631a4df0"/>
+  <project path="external/tremolo" name="platform/external/tremolo" remote="korg"/>
   <project path="external/v8" name="CyanogenMod/android_external_v8" remote="github" revision="15b4fa6df76582ae62236b94efc70f21248841ad"/>
-  <project path="external/webkit" name="SM-froyo/android_external_webkit" remote="github"/>
+  <project path="external/webkit" name="SM-froyo/android_external_webkit" remote="github" revision="f0b02c8e09583fae95c72255c46774d8e4b59cf7"/>
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" revision="91d69aa6978517b0bf615656b3bd7178585230d6"/>
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="github" revision="13d3fc17cffbc43bd077c948cddb412c4ffb9cce"/>
   <project path="external/wpa_supplicant_6" name="dh-harald/cm_android_external_wpa_supplicant_6" remote="github"/>
-  <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="korg" revision="I251852db7beae805da9db8efa21d6ff47eaf3b52"/>
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="korg"/>
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="9fe7afb4117d1f91ec53bc4719305d5ba7130e86"/>
   <project path="external/zlib" name="android/platform_external_zlib" remote="github" revision="d834beaf3037eed0745f6dbd987a3bd8b3bf7ee4"/>
 
-  <project path="frameworks/base" name="SM-froyo/sm_android_frameworks_base" remote="github"/>
-  <project path="frameworks/ex" name="platform/frameworks/ex" remote="korg" revision="I68943b8b41622dab88c7b13d8c067b39205f028e"/>
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="korg" revision="I5d1a6f7f8d5aa18128e56e1cc527b919ea34d495"/>
+  <project path="frameworks/base" name="SM-froyo/sm_android_frameworks_base" remote="github" revision="b891cc29fdf065df86e5ac4cb0490d6b31140d2b"/>
+  <project path="frameworks/ex" name="platform/frameworks/ex" remote="korg"/>
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="korg"/>
 
-  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" remote="github"/>
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="korg" revision="Iba120a2bb21582aeef72a06a99d7f19b62d2df75"/>
+  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" remote="github" revision="6213741035e7e4c3c8dbef32475ca2d219cc7934"/>
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="korg"/>
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="8fb22bd4c2a4531a13c2bb2e0ce9c9f93ca021ed"/>
   <project path="hardware/libhardware_legacy" name="dh-harald/cm_android_hardware_libhardware_legacy" remote="github"/>
   <project path="hardware/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" revision="d11e359957151306efd9d9512840437ca2098c4a"/>
   <project path="hardware/qcom/mm-video" name="CyanogenMod/android_hardware_qcom_mm-video" remote="github" revision="3804cda45ebf2ab09fe42486f080e74502de8a35"/>
-  <project path="hardware/ril" name="SM-froyo/platform_hardware_ril" remote="github"/>
+  <project path="hardware/ril" name="SM-froyo/platform_hardware_ril" remote="github" remote="cb105f72215b5ea0ec2c7fb8af58e0d50aa76be1"/>
 
   <project path="ndk" name="platform/ndk"/>
 
-  <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" remote="korg" revision="I651e370652e8bcd8d5e32c41fb8c7824dea55619"/>
+  <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" remote="korg" />
   <project path="packages/apps/AndroidTerm" name="CyanogenMod/android_packages_apps_AndroidTerm" remote="github" revision="e3428012b2395922036ccbf5e0fca46d27d21c5e"/>
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="9f42c8c3f39f61f10fe435c876c84b694ee7335d"/>
   <project path="packages/apps/Browser" name="SM-froyo/android_packages_apps_Browser" remote="github" revision="gingerbread"/>
   <project path="packages/apps/Calculator" name="android/platform_packages_apps_calculator" remote="github" revision="72b0717b7d8956ada90742947838779b24e323f7"/>
   <project path="packages/apps/Calendar" name="android/platform_packages_apps_calendar" remote="github" revision="14e77164bddf4d29acaca5bb2ff116a697bf9650"/>
-  <project path="packages/apps/Camera" name="SM-froyo/android_packages_apps_Camera" remote="github"/>
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="korg" revision="I2332c5497ccb691f0dab65a3c6b8424f38a604c4"/>
-  <project path="packages/apps/Contacts" name="SM-froyo/android_packages_apps_Contacts" remote="github"/>
-  <project path="packages/apps/DeskClock" name="SM-froyo/android_packages_apps_DeskClock" remote="github"/>
-  <project path="packages/apps/DSPManager" name="SM-froyo/android_packages_apps_DSPManager" remote="github"/>
-  <project path="packages/apps/Email" name="SM-froyo/android_packages_apps_Email" remote="github"/>
+  <project path="packages/apps/Camera" name="SM-froyo/android_packages_apps_Camera" remote="github" remote="8f861c27f14e7e7f59bb5bf60aba0ad02ec0684d"/>
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="korg"/>
+  <project path="packages/apps/Contacts" name="SM-froyo/android_packages_apps_Contacts" remote="github" revision="266d02936c7e28a13017bea0a9eb2ac04ff1396d"/>
+  <project path="packages/apps/DeskClock" name="SM-froyo/android_packages_apps_DeskClock" remote="github" revision="dfc50ab8a595f0af562179631faa8b1e652d0040"/>
+  <project path="packages/apps/DSPManager" name="SM-froyo/android_packages_apps_DSPManager" remote="github" revision="4307fc06b0f05e6f2a2c8fc70a86d8fb91c89569"/>
+  <project path="packages/apps/Email" name="SM-froyo/android_packages_apps_Email" remote="github" remote="a4e41644ab565ca6562e65f3d36686a454aabaa3"/>
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="490e1f724b685c5d75b0b540c23c255d9a1bbfee"/>
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="4c9d4abc1f17f88e523bc42eea4530d74fbc4da5"/>
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="korg" revision="Ib8c79224f7db34b6216959d53cc5fcfc3a7114a5"/>
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="korg"/>
   <project path="packages/apps/Gallery3D" name="Androbot/android_packages_apps_Gallery3D" remote="github" revision="94e3b45ac8f329e0e0c930943b2bcbda5440b1b8"/>
   <project path="packages/apps/HTMLViewer" name="android/platform_packages_apps_htmlviewer" remote="github" revision="09599d4862289c36586b8fbeb0fb31d40c80ac19"/>
   <project path="packages/apps/IM" name="android/platform_packages_apps_im" remote="github" revision="d4eead18d460ee3b4f911bf93078158194bb252c"/>
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="korg" revision="I8b250fac67c854a118fd481466e2e28f773e2229"/>
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="korg"/>
   <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" remote="github" revision="450e301965b37d7be0531fe2e18b944815682a7a"/>
-  <project path="packages/apps/Mms" name="SM-froyo/android_packages_apps_Mms" remote="github"/>
-  <project path="packages/apps/Music" name="SM-froyo/android_packages_apps_Music" remote="github"/>
+  <project path="packages/apps/Mms" name="SM-froyo/android_packages_apps_Mms" remote="github" remote="b8053200cc3fd6ac1d706ae3958b1bcac7affa9d"/>
+  <project path="packages/apps/Music" name="SM-froyo/android_packages_apps_Music" remote="github" revision="7629e4ba44d02af08bc70aeb9a61727258c13343"/>
   <project path="packages/apps/PackageInstaller" name="android/platform_packages_apps_packageinstaller" remote="github" revision="5e5e193b674790bf3195c4c9a0c7c6d6b4a92a09"/>
-  <project path="packages/apps/Phone" name="SM-froyo/android_packages_apps_Phone" remote="github"/>
+  <project path="packages/apps/Phone" name="SM-froyo/android_packages_apps_Phone" remote="github" revision="2bed5b5ef1b06d75f957690632539c6c9ec76351"/>
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" revision="03c5288e0336a85e140d1049ef57480996006bdd"/>
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="korg" revision="Ie414908ba633b8a3664d1e6bc9f8792a8b04d15e"/>
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="korg" revision="I01f8398589362c9014ee3189804dea406a0ce632"/>
-  <project path="packages/apps/Settings" name="SM-froyo/android_packages_apps_Settings" remote="github"/>
-  <project path="packages/apps/SMParts" name="SM-froyo/android_packages_apps_SMParts" remote="github"/>
-  <project path="packages/apps/SMPartsHelper" name="SM-froyo/android_packages_apps_SMPartsHelper" remote="github"/>
-  <project path="packages/apps/SMUpdateNotify" name="voku/android_packages_apps_SMUpdateNotify" remote="github"/>
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="korg"/>
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="korg"/>
+  <project path="packages/apps/Settings" name="SM-froyo/android_packages_apps_Settings" remote="github" revision="5644617bc77f7daef97dd4ca7203902bf1d3361d"/>
+  <project path="packages/apps/SMParts" name="SM-froyo/android_packages_apps_SMParts" remote="github" revision="216dc42df6851b9e78e0f9d6b7a403e7cce0029e"/>
+  <project path="packages/apps/SMPartsHelper" name="SM-froyo/android_packages_apps_SMPartsHelper" remote="github" revision="1f969f1938d91bd40891f7560caab1154442c013"/>
+  <project path="packages/apps/SMUpdateNotify" name="voku/android_packages_apps_SMUpdateNotify" remote="github" revision="6b595957e9c00389f0c6ff973b36ad0ebf4f7e64"/>
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" revision="724f488c5fc5e187fc90ad670251be11c99b0014"/>
   <project path="packages/apps/Stk" name="android/platform_packages_apps_stk" remote="github" revision="1f04bacb57af5ac14852cc1056f53016560cc656"/>
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="gingerbread"/>
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="e21aa4d53f11ed1c39d0a512d2e6944de824751c"/>
   <project path="packages/apps/TSCalibration" name="CyanogenMod/android_packages_apps_TSCalibration" remote="github" revision="eba1bfcaa3637ec6862131de0c02cb669c5babfc"/>
-  <project path="packages/apps/VoiceDialer" name="SM-froyo/android_packages_apps_VoiceDialer" remote="github"/>
-  <project path="packages/experimental" name="platform/packages/experimental" remote="korg" revision="I82e5f990225bac0c67be6ade94b1fe53190572e2"/>
+  <project path="packages/apps/VoiceDialer" name="SM-froyo/android_packages_apps_VoiceDialer" remote="github" revision="14dfded6a9ac3842a8491d7af415ba35a47bd380"/>
+  <project path="packages/experimental" name="platform/packages/experimental" remote="korg"/>
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="067235a0c0760d406df02e87c0b30603091969c9"/>
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="korg" revision="I5b7daddfd3dfb4de0f1ac6c7a17e83a6cbeebd3c"/>
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="korg" revision="I37ed64d0dd79d8abec89262f83c5dc06343bd65e"/>
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="korg" revision="Ic051868dd922f7fcb21a7e21ec41028291ec8943"/>
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="korg"/>
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="korg"/>
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="korg"/>
   <project path="packages/providers/CalendarProvider" name="android/platform_packages_providers_calendarprovider" remote="github" revision="9be87f0a751a29226f6d2a57054eb0627d370b9b"/>
   <project path="packages/providers/ContactsProvider" name="android/platform_packages_providers_contactsprovider" remote="github" revision="4f20a360a2f0a7a83900c28fc7728542b38d8939"/>
   <project path="packages/providers/DownloadProvider" name="SM-froyo/android_packages_providers_DownloadProvider" remote="github" revision="gingerbread"/>
@@ -170,22 +170,22 @@ s
   <project path="packages/providers/GoogleContactsProvider" name="android/platform_packages_providers_googlecontactsprovider" remote="github" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2"/>
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" revision="13d1110cb8aca41e07494cc37da204e755c7883a"/>
   <project path="packages/providers/TelephonyProvider" name="android/platform_packages_providers_telephonyprovider" remote="github" revision="14595cbe9045755a5aa2bd28989c147c4709268c"/>
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="korg" revision="I3770efef5ae5432f95f5e0f6c1ac4107b59d8ef4"/>
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="korg"/>
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="github" revision="f2be59c76bffe0991c7058bacad1b59d75b360cb"/>
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="korg" revision="Idfb7db27349478dd56e58343b1128f0a763bffb9"/>
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="korg"/>
   <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="github" revision="f5177bb1e681248ef201d3fffebd961a192d4d7b"/>
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="korg" revision="I5a5e1ea7da45efa382814beff0829276f19514d8"/>
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="korg"/>
 
   <project path="prebuilt" name="android/platform_prebuilt" remote="github" revision="af702f794b83025363cfd7fcccffbd87d8ffd40d"/>
-  <project path="sdk" name="platform/sdk" remote="korg" revision="Ie237e7d83e1f5a945a2061506b7c302c04aef8d0"/>
-  <project path="system/bluetooth" name="SM-froyo/sm_android_system_bluetooth" remote="github"/>
+  <project path="sdk" name="platform/sdk" remote="korg"/>
+  <project path="system/bluetooth" name="SM-froyo/sm_android_system_bluetooth" remote="github" revision="1e7c1dff9450ffb0118db1cbd5fc52daf8ca61f0"/>
   <project path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="3519f031cb654b711cff28b624d6f85afc2fd455"/>
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="47e7c4c7a8ec7a8fbd7c9241bf958576c5b65525"/>
-  <project path="system/netd" name="dh-harald/cm_android_system_netd" remote="github"/>
-  <project path="system/vold" name="dh-harald/cm_android_system_vold" remote="github"/>
+  <project path="system/netd" name="dh-harald/cm_android_system_netd" remote="github" revision="d4fb5820ca19952690b88700f0e088db42d35242"/>
+  <project path="system/vold" name="dh-harald/cm_android_system_vold" remote="github" revision="0f9102da8bf6af97a6ceabc8177172ed3bb1e646"/>
   <project path="system/wlan/ti" name="android/platform_system_wlan_ti" remote="github" revision="3baca6cc248e0d9a852c25b214c92bc856ae03ea"/>
 
-  <project path="vendor/spica" name="SM-froyo/sm_android_vendor_spica" remote="github"/>
+  <project path="vendor/spica" name="SM-froyo/sm_android_vendor_spica" remote="github" revision="b6dd0477236317b8a0769d6a5bd2a043e15912d3"/>
 
 </manifest>
 
