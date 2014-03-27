@@ -101,7 +101,7 @@
   <project path="external/webkit" name="SM-froyo/android_external_webkit" remote="github" revision="f0b02c8e09583fae95c72255c46774d8e4b59cf7"/>
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" revision="91d69aa6978517b0bf615656b3bd7178585230d6"/>
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="github" revision="13d3fc17cffbc43bd077c948cddb412c4ffb9cce"/>
-  <project path="external/wpa_supplicant_6" name="dh-harald/cm_android_external_wpa_supplicant_6" remote="github"/>
+  <project path="external/wpa_supplicant_6" name="dh-harald/cm_android_external_wpa_supplicant_6" remote="github" revision="ab5a7782ef79f598ca051b23bc39d002e9c37605"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="korg"/>
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="9fe7afb4117d1f91ec53bc4719305d5ba7130e86"/>
   <project path="external/zlib" name="android/platform_external_zlib" remote="github" revision="d834beaf3037eed0745f6dbd987a3bd8b3bf7ee4"/>
